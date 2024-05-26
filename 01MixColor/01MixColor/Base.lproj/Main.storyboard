@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_1MixColor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ColorMix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8up-C9-GKo">
+                                <rect key="frame" x="0.0" y="79" width="393" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yT-SJ-2sZ" userLabel="Color1">
+                                <rect key="frame" x="0.0" y="145" width="393" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gnn-gx-XpR" userLabel="View1">
+                                <rect key="frame" x="136.66666666666666" y="176" width="119.99999999999997" height="120"/>
+                                <color key="backgroundColor" name="AppBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="lem-3N-6xR"/>
+                                    <constraint firstAttribute="width" constant="120" id="yR8-OT-OfB"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oe8-UJ-83z">
+                                <rect key="frame" x="0.0" y="316" width="393" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOY-bt-JQC">
+                                <rect key="frame" x="0.0" y="372" width="393" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sYF-WP-4KX" userLabel="View2">
+                                <rect key="frame" x="136.66666666666666" y="403" width="119.99999999999997" height="120"/>
+                                <color key="backgroundColor" name="AppRed"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="S0N-If-44z"/>
+                                    <constraint firstAttribute="height" constant="120" id="XoA-Kg-raa"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8CW-Dy-hzP">
+                                <rect key="frame" x="0.0" y="543" width="393" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ResultColor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XT1-OG-k0A">
+                                <rect key="frame" x="0.0" y="599" width="393" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWJ-hC-z6s" userLabel="ResultView">
+                                <rect key="frame" x="136.66666666666666" y="630" width="119.99999999999997" height="120"/>
+                                <color key="backgroundColor" name="AppFiolet"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="Sxj-Bj-8TK"/>
+                                    <constraint firstAttribute="height" constant="120" id="wu4-ZH-aJS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XT1-OG-k0A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Oc-Mk-FJi"/>
+                            <constraint firstItem="fWJ-hC-z6s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Du-ze-C4T"/>
+                            <constraint firstItem="sYF-WP-4KX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6M5-Al-VeJ"/>
+                            <constraint firstItem="KOY-bt-JQC" firstAttribute="top" secondItem="Oe8-UJ-83z" secondAttribute="bottom" constant="20" id="9YP-Wv-FGl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1yT-SJ-2sZ" secondAttribute="trailing" id="JDm-Qs-UVa"/>
+                            <constraint firstItem="fWJ-hC-z6s" firstAttribute="top" secondItem="XT1-OG-k0A" secondAttribute="bottom" constant="10" id="Ngg-hx-TD1"/>
+                            <constraint firstItem="sYF-WP-4KX" firstAttribute="top" secondItem="KOY-bt-JQC" secondAttribute="bottom" constant="10" id="T7K-vz-uih"/>
+                            <constraint firstItem="1yT-SJ-2sZ" firstAttribute="top" secondItem="8up-C9-GKo" secondAttribute="bottom" constant="30" id="UWW-bm-jl6"/>
+                            <constraint firstItem="Gnn-gx-XpR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vat-Uf-JbJ"/>
+                            <constraint firstItem="XT1-OG-k0A" firstAttribute="top" secondItem="8CW-Dy-hzP" secondAttribute="bottom" constant="20" id="WtA-ZJ-qPL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8up-C9-GKo" secondAttribute="trailing" id="YCC-d0-9xN"/>
+                            <constraint firstItem="1yT-SJ-2sZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="a4C-O8-FSG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XT1-OG-k0A" secondAttribute="trailing" id="a7Z-cg-qSz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8CW-Dy-hzP" secondAttribute="trailing" id="bgo-Wj-4w8"/>
+                            <constraint firstItem="8CW-Dy-hzP" firstAttribute="top" secondItem="sYF-WP-4KX" secondAttribute="bottom" constant="20" id="c1h-Xi-RKF"/>
+                            <constraint firstItem="8up-C9-GKo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f75-3b-4mz"/>
+                            <constraint firstItem="Oe8-UJ-83z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j9x-iM-fzd"/>
+                            <constraint firstItem="Oe8-UJ-83z" firstAttribute="top" secondItem="Gnn-gx-XpR" secondAttribute="bottom" constant="20" id="jhr-zR-a7C"/>
+                            <constraint firstItem="Gnn-gx-XpR" firstAttribute="top" secondItem="1yT-SJ-2sZ" secondAttribute="bottom" constant="10" id="mM6-H9-fCq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oe8-UJ-83z" secondAttribute="trailing" id="oFM-zg-Y5b"/>
+                            <constraint firstItem="KOY-bt-JQC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pUN-qP-mLn"/>
+                            <constraint firstItem="8CW-Dy-hzP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sES-Ja-Xt0"/>
+                            <constraint firstItem="8up-C9-GKo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="wAf-Ca-Tzu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KOY-bt-JQC" secondAttribute="trailing" id="xCh-Gj-t6f"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="86" y="-27"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AppBlue">
+            <color red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppFiolet">
+            <color red="0.54509803921568623" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="AppRed">
+            <color red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
